@@ -25,7 +25,8 @@ function App() {
     );
   }
   return (
-    <div>
+    // This is the new alternative to fragment element to reduce unnessesary div's in the code
+    <>
       <Header />
       <main>
         <h2>Time to get started!</h2>
@@ -69,7 +70,7 @@ function App() {
           {tabContent}
         </section>
       </main>
-    </div>
+    </>
   );
 }
 
